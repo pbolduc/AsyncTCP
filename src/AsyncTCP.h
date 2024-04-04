@@ -35,7 +35,7 @@ extern "C" {
 //#define CONFIG_ASYNC_TCP_DIAGNOSTICS 1
 
 #ifndef CONFIG_ASYNC_TCP_EVENT_QUEUE_SIZE
-#define CONFIG_ASYNC_TCP_EVENT_QUEUE_SIZE (CONFIG_LWIP_MAX_ACTIVE_TCP * 2)
+#define CONFIG_ASYNC_TCP_EVENT_QUEUE_SIZE (CONFIG_LWIP_MAX_ACTIVE_TCP * 4)
 #endif
 
 //If core is not defined, then we are running in Arduino or PIO
